@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla:wght@400;700&family=Lexend&display=swap');
+html {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(204, 43%, 93%);
+    padding: 100px 30px;
+}
+.boxmain {
+    display: grid;
+    grid-template-columns: 100%;
+    border-radius: 6px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 14px 1px #00000024;
+    overflow: hidden;
+}
+
+.box {
+    padding: 30px;
+}
+.box1 {
+    background-color: white;
+}
+.box1 h3 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700px;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+.box1 h4 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+.box1 p {
+    font-size: 1rem;
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+}
+.leftside {
+    background-color: hsl(179, 57%, 41%);
+}
+.leftside h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+.leftside p {
+    color: hsl(204, 43%, 93%);
+    font-weight: 400px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.leftside p span {
+    font-size: 2.5rem;
+    font-weight: 700px;
+}
+.leftside button {
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    display: inline-block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-top: 30px;
+    font-weight: 700px;
+    border-radius: 6px;
+    box-shadow:#00000025 ;
+}
+.rightside {
+    background-color: hsl(179, 62%, 43%); 
+}
+.rightside h3 {
+    color: white;
+    font-weight: 400px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.rightside p {
+    color: hsl(204, 43%, 93%);
+    line-height: 1.4rem;
+    font-size: 0.9rem;
+}
+@media only screen and (min-width: 750px) {
+    .boxmain {
+        grid-template-columns: 50% 50%;
+    }
+    .box1 {
+        grid-area: 1/ 1/ 2/ 3;
+    }
+    .leftside,
+    .rightside {
+        grid-row: 2;
+    }
+    
+}
