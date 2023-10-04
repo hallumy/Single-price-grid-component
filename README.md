@@ -24,7 +24,7 @@ view the optimal layout for the component depending on their device's screen siz
 
 ### Screenshot
 
-![single price grid](./design/Screenshot%20from%202023-10-02%2019-49-46%20cropped.png)
+![single price grid component](/design/Screenshot%20from%202023-10-04%2022-37-49%20cropped.png)
 
 
 ## My process
@@ -43,7 +43,7 @@ view the optimal layout for the component depending on their device's screen siz
 
 ### Continued development
 
-Practising css more
+Learning css and perfecting that skill
 
 
 ### Useful resources
