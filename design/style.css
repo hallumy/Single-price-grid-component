@@ -95,7 +95,7 @@ section {
 .leftside button:focus {
     outline: transparent;
     outline-style: solid;
-    box-shadow:#00000025;
+    box-shadow: #00000025;
     transition: 0.7s;
 }
 .rightside {
