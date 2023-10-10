@@ -69,6 +69,10 @@ section {
     font-size: 2.5rem;
     font-weight: 700px;
 }
+#p1 {
+    font-size: 0.9rem;
+    font-weight: 400px;
+}
 .leftside button {
     background-color: hsl(71, 73%, 54%);
     color: hsl(204, 43%, 93%);
@@ -76,12 +80,23 @@ section {
     padding: 15px;
     width: 100%;
     display: inline-block;
+    font-family: 'Karla', sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
     margin-top: 30px;
     font-weight: 700px;
     border-radius: 6px;
-    box-shadow:#00000025 ;
+    border: none;
+}
+.leftside button:hover {
+    background-color: hsl(218, 22%, 67%);
+    transition: 0.7s;
+}
+.leftside button:focus {
+    outline: transparent;
+    outline-style: solid;
+    box-shadow:#00000025;
+    transition: 0.7s;
 }
 .rightside {
     background-color: hsl(179, 62%, 43%); 
